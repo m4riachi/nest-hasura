@@ -1,0 +1,3 @@
+- "!include public_photos.yaml"
+- "!include public_tags.yaml"
+- "!include public_users.yaml"

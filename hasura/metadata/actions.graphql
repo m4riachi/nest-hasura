@@ -1,0 +1,22 @@
+type Mutation {
+  walletLogin(
+    credentiels: Credentiels!
+  ): JwtToken
+}
+
+input SigninCredentiels {
+  message: String!
+  pk: String!
+  signature: String!
+}
+
+input Credentiels {
+  message: String!
+  pk: String!
+  signature: String!
+}
+
+type JwtToken {
+  access_token: String!
+}
+
